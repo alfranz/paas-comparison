@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: saas-comparison
+    name: paas-comparison
     runtime: docker
     repo: https://github.com/alfranz/paas-comparison
     dockerfilePath: Dockerfile
