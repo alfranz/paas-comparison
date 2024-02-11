@@ -12,8 +12,9 @@ templates = Jinja2Templates(directory="assets")
 @app.get("/")
 async def service_index(request: Request):
     paas_urls = {
-        "render": ("Render", "https://render.com"),
-        "do": ("Digital Ocean", "https://heroku.com"),
+        "RENDER": ("Render", "https://render.com"),
+        "DO": ("Digital Ocean", "https://cloud.digitalocean.com/"),
+        "FLY": ("FLY.IO", "https://fly.io"),
         "local": ("Local", "#"),
     }
 

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: saas-comparison
+    runtime: docker
+    repo: https://github.com/alfranz/paas-comparison
+    dockerfilePath: ./Dockerfile
+    region: oregon 
+    plan: standard 
+    branch: master 
+    rootDir: app
+    numInstances: 1
+    healthCheckPath: /
+    envVars:
+    - key: PAAS
+      value: RENDER
