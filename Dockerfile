@@ -6,8 +6,7 @@ COPY app/requirements.txt .
 RUN apt-get update && apt-get install && \
     pip install --no-cache-dir -r requirements.txt
 
-COPY app/*.py app/
-COPY app/assets/ app/assets/
+COPY app/ .
 
 ARG PAAS_ENV='LOCAL'
 ENV PAAS_ENV=$PAAS_ENV

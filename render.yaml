@@ -13,3 +13,5 @@ services:
     envVars:
     - key: PAAS
       value: RENDER
+    - key: PORT
+      value: 8082
