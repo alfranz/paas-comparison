@@ -7,7 +7,7 @@ services:
     region: oregon 
     plan: standard 
     branch: master 
-    rootDir: app
+    rootDir: .
     numInstances: 1
     healthCheckPath: /
     envVars:
