@@ -1,7 +1,9 @@
 # Container PaaS Comparison
 
+A simple FastAPI app I deployed to different container PaaS providers to compare them.
+
 - [ ] Fly.io
-- [ ] Render
+- [x] Render
 - [ ] Vercel
 
-uvicorn main:app --host 0.0.0.0 --port 8081
+Read about it on my blog soon.

@@ -5,7 +5,7 @@ services:
     repo: https://github.com/alfranz/paas-comparison
     dockerfilePath: Dockerfile
     region: oregon 
-    plan: standard 
+    plan: free 
     branch: master 
     rootDir: .
     numInstances: 1
