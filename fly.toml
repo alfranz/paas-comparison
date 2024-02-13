@@ -23,3 +23,6 @@ primary_region = 'ams'
 
 [build.args]
   PAAS="FLY"
+
+[env]
+  PAAS="FLY"

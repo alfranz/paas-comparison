@@ -14,7 +14,7 @@ async def service_index(request: Request):
     paas_urls = {
         "RENDER": ("Render", "https://render.com"),
         "DO": ("Digital Ocean", "https://cloud.digitalocean.com/"),
-        "FLY": ("FLY.IO", "https://fly.io"),
+        "FLY": ("fly.io", "https://fly.io"),
         "RAILWAY": ("Railway", "https://railway.app"),
         "local": ("Local", "#"),
     }
