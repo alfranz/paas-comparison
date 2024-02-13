@@ -15,3 +15,10 @@ services:
       value: RENDER
     - key: PORT
       value: 8082
+  - type: cron
+    name: date
+    runtime: python
+    schedule: "0 * * * *"
+    buildCommand: "true" # ensure it's a string
+    startCommand: date
+    repo: https://github.com/render-examples/docker.git # optional

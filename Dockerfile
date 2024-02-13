@@ -10,6 +10,5 @@ COPY app/ .
 
 ARG PAAS_ENV='LOCAL'
 ENV PAAS_ENV=$PAAS_ENV
-ENV PORT=8082
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8082"]
+CMD ["sh","-c" "uvicorn main:app --host 0.0.0.0 --port ${PORT:-8082}"]
