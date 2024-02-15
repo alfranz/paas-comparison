@@ -4,10 +4,13 @@
 
 A simple FastAPI app I deployed to different container PaaS providers to compare them.
 
-Check out the live demo here, hosted with [Railway.app](https://paas-comparison-production.up.railway.app/)
 </div>
 
 ---
+
+## Live Demo
+
+Check out the live demo - hosted with [Railway.app](https://paas-comparison-production.up.railway.app).
 
 <img src="img/screenshot.png" alt="Simple app">
 
